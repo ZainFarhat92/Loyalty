@@ -1,0 +1,151 @@
+::ng-deep .mat-slide-toggle.mat-checked:not(.mat-disabled) .mat-slide-toggle-thumb {
+  background-color: blue;
+  /*replace with your color*/
+}
+
+::ng-deep .mat-slide-toggle.mat-checked:not(.mat-disabled) .mat-slide-toggle-bar {
+  background-color: skyblue;
+  /*replace with your color*/
+}
+
+.mat-card {
+
+  max-width: 300px;
+  border-radius: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+  height: 185px;
+  cursor: pointer;
+
+
+}
+
+.mat-card-title {
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 27px;
+
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.496657px;
+  color: blue;
+}
+
+.mat-card-content {
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 27px;
+
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.496657px;
+}
+
+.SlideMe {
+  position: absolute !important;
+  left: 250px;
+  right: 3px;
+  top: 15px;
+  bottom: 5px;
+  color: blue;
+
+
+}
+
+.mat-card-header .mat-card-title {
+  margin-bottom: 0px;
+}
+
+
+.Dashboard {
+
+
+  font-family: 'Adam';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 27px;
+  line-height: 51px;
+  color: #263238;
+  margin-left: 30px;
+  margin-bottom: -8px;
+  margin-top: -14px;
+
+
+
+}
+
+
+@media only screen and (max-width: 1138px) {
+  .class {
+    flex-flow: column !important;
+  }
+
+  .mat-card {
+
+    max-width: 300px;
+    border-radius: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    height: 135px;
+    cursor: pointer;
+
+
+
+  }
+
+  .SlideMe {
+    position: absolute !important;
+    left: 0px;
+    right: 3px;
+    top: 15px;
+    bottom: 5px;
+    color: blue;
+
+
+  }
+}
+
+
+@media only screen and (max-width: 580px) {
+  .class {
+    flex-flow: column !important;
+  }
+
+  .mat-card {
+
+    max-width: 300px;
+    border-radius: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    height: 135px;
+    cursor: pointer;
+
+
+  }
+
+  .SlideMe {
+    position: absolute !important;
+    left: 100px;
+    right: 3px;
+    top: 15px;
+    bottom: 5px;
+    color: blue;
+
+
+  }
+}
+

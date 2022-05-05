@@ -1,0 +1,76 @@
+
+
+<div class="content">
+  <!-- flex-flow/ column -->
+  <div fxLayout="row wrap" class="main"> 
+    <div
+      fxFlex="30%"
+      *ngFor="
+        let num of [
+          {
+            name: 'Account Creation',
+            Point1: 'Reward your users with a welcome bonus when they Sign Up.',
+            Point2: 'Newly Enrolled Users get 2 points'
+          },
+          {
+            name: 'Purchase on website',
+            Point1: 'Reward your users everytime they make a purchase.',
+            Point2: 'Users get 2 points for every dollar spent'
+          },
+          {
+            name: 'Birthday Bonus',
+            Point1: 'Reward your users with bonus points on their birthday',
+            Point2: 'Users get 2 points on their birthday'
+          },
+
+          {
+            name: 'Anniversary Bonus',
+            Point1: 'Reward your users with a bonus on their anniversary.',
+            Point2: 'Users get 2 points on their anniversary'
+          },
+          {
+            name: 'Share on Facebook',
+            Point1: 'Reward your users when they share',
+            Point2: 'Users who share get 2 points'
+          },
+          {
+            name: 'Share on Twitter',
+            Point1: 'Reward your users when they share',
+            Point2: 'Users who share get 2 points'
+          },
+
+          {
+            name: 'Share on Pinterest',
+            Point1: 'Reward your users when they share',
+            Point2: 'Users who share get 2 points'
+          },
+          {
+            name: 'Review on website ',
+            Point1: 'Reward your users when they post a review',
+            Point2: 'Users who review get 2 points'
+          },
+          { name: 'New Activity', 
+          Point1: 'Reward your users for any activity you want.'
+         }
+        ]
+      "
+
+      
+    >
+      <mat-card class="mat-elevation-z4">
+        <mat-card-header>
+          <mat-card-title [routerLink]="['/Dashboard/details']" class="mat-card-title">{{ num.name }}</mat-card-title>
+        </mat-card-header>
+        <mat-slide-toggle class="SlideMe"></mat-slide-toggle>
+        <hr>
+        <mat-card-content class="mat-card-content">
+          
+          <ul>
+            <li>{{ num.Point1 }}</li>
+            <li>{{ num.Point2 }}</li>
+          </ul>
+        </mat-card-content>
+      </mat-card>
+    </div>
+  </div>
+</div>

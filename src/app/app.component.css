@@ -1,0 +1,41 @@
+.mat-tab-group {
+  margin-bottom: 48px;
+}
+
+.Title {
+  /* position: absolute; */
+left: 18.75%;
+right: 62.45%;
+top: 4.83%;
+bottom: 90.43%;
+
+font-family: 'Adam';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 51px;
+color: #263238;
+padding-left: 102px;
+padding-top: 60px;
+text-align:center;
+
+}
+.mattab {
+/* position: absolute; */
+  width: 1495px;
+  height: 456px;
+  left: 360px;
+  top: 142px;
+  
+  background: #FFFFFF;
+  box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.15);
+  border-radius: 16px;
+}
+
+.mat-tab-body-content{
+  padding: 2%;
+}
+
+.input{
+  width: 30px;
+}

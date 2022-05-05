@@ -1,0 +1,73 @@
+
+<div class="content">
+  <div fxLayout="row wrap" class="contentres">
+    <div
+      fxFlex="30%"
+      *ngFor="
+        let num of [
+          {
+            name: 'Reward 1',
+            Point1: '500 Points will be deducted',
+            Point2: '20% Discount'
+          },
+          {
+            name: 'Reward 2',
+            Point1: '500 Points will be deducted',
+            Point2: '20% Discount'
+          },
+          {
+            name: 'Reward 3',
+            Point1: '500 Points will be deducted',
+            Point2: '20% Discount'
+          },
+
+          {
+            name: 'Reward 4',
+            Point1: '500 Points will be deducted',
+            Point2: '20% Discount'
+          },
+          {
+            name: 'Reward 5',
+            Point1: '500 Points will be deducted',
+            Point2: '20% Discount'
+          },
+          {
+            name: 'Reward 6',
+            Point1: '500 Points will be deducted',
+            Point2: '20% Discount'
+          },
+
+          {
+            name: 'Reward 7',
+            Point1: '500 Points will be deducted',
+            Point2: '20% Discount'
+          },
+          {
+            name: 'Reward ',
+            Point1: '500 Points will be deducted',
+            Point2: '20% Discount'
+          },
+          { name: 'New Reward', 
+          Point1: 'Reward your users with a discount' }
+        ]
+      "
+    >
+      <mat-card class="mat-elevation-z4">
+        <mat-card-header style="display: flex; flex-direction: row; justify-content: space-between;">
+         
+          <mat-card-title [routerLink]="['/Dashboard//Rewardsdetails']" class="mat-card-title">{{ num.name }}</mat-card-title>
+          <mat-slide-toggle class=""></mat-slide-toggle>
+
+        </mat-card-header>
+        <hr>
+        <mat-card-content class="mat-card-content">
+          
+          <ul>
+            <li>{{ num.Point1 }}</li>
+            <li>{{ num.Point2 }}</li>
+          </ul>
+        </mat-card-content>
+      </mat-card>
+    </div>
+  </div>
+</div>

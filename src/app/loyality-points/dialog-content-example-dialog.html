@@ -1,0 +1,37 @@
+<h2 class="AddRule" mat-dialog-title>Add Rule</h2>
+<mat-dialog-content class="mat-typography">
+
+  <span class="If">IF</span>
+<span class="verticallyaligned">:</span>
+  <mat-form-field class="OpenDialogeSelect" appearance="fill">
+    <mat-label class="Condition">Condition</mat-label>
+    <select matNativeControl>
+      <option class="SelectCondition" value="Select condition">Select Condition</option>
+      <option value=""></option>
+      <option value=""></option>
+      <option value=""></option>
+    </select>
+  </mat-form-field>
+<br>
+<span class="Then">THEN</span>
+<span class="verticallyaligned1">:</span>
+
+<mat-form-field class="OpenDialogeSelect" appearance="fill">
+  <mat-label class="Action">Action</mat-label>
+  <select class="select" matNativeControl>
+    <option class="SelectAction" value="Select action">Select Action</option>
+    <option value=""></option>
+    <option value=""></option>
+    <option value=""></option>
+  </select>
+</mat-form-field>
+
+<div class="buttonrow">
+  <button class="Discard1" mat-button color="White">Discard</button>
+  <button class="ApplyChanges1" mat-button color="White">
+    Create
+  </button>
+</div>
+</mat-dialog-content>
+
+

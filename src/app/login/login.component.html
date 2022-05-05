@@ -1,0 +1,74 @@
+
+<section class="vh-100 gradient-custom">
+
+  <mat-card class="loginpage">
+
+  <img [src]="imageSrc" [alt]="imageAlt" class="logo" />
+  
+
+    <h2 class="title">Loyalty Points Log In </h2>
+    <form>
+       
+ 
+        <div class="form-outline mb-4">
+            <label class="form-label" for="form2Example1">Email address</label>
+          <input type="email" id="form2Example1" class="form-control" placeholder="Email@hotmail.com" />
+         
+        </div> 
+
+      
+      
+        <!-- Password input -->
+        <div class="form-outline mb-4">
+            <label class="form-label" for="form2Example2">Password</label>
+          <input type="password" id="form2Example2" class="form-control" placeholder="Password" />
+          
+        </div>
+      
+        <!-- 2 column grid layout for inline styling -->
+        <div class="row mb-4">
+          <div class="col d-flex justify-content-center">
+            
+          </div>
+      
+          <div class="col">
+            <!-- Simple link -->
+            <!-- <a [routerLink]="['/verifyyouremail']" href="#!" class="Forgotpassword">Forgot password?</a> -->
+            <a [routerLink]="['/verifyyouremail']" class="Forgotpassword" mat-raised-a color="White">Forgot Password</a>
+          </div>
+        </div>
+        <div class="col">
+          <a [routerLink]="['/registration']" class="signUp" mat-raised-a color="White">Sign Up</a>
+        </div>
+      
+      
+        <!-- Submit button -->
+        <button type="button" class="loginbutton" [routerLink]="['/Dashboard']">Log in</button>
+      
+        <!-- Register buttons -->
+        <div class="text-center">
+          
+          <button type="button" class="btn btn-link btn-floating mx-1">
+            <i class="fab fa-facebook-f"></i>
+          </button>
+      
+          <button type="button" class="btn btn-link btn-floating mx-1">
+            <i class="fab fa-google"></i>
+          </button>
+      
+          <button type="button" class="btn btn-link btn-floating mx-1">
+            <i class="fab fa-twitter"></i>
+          </button>
+      
+          <button type="button" class="btn btn-link btn-floating mx-1">
+            <i class="fab fa-github"></i>
+          </button>
+        </div>
+      </form>
+
+
+    </mat-card>
+
+
+  </section>
+

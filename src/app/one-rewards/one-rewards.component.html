@@ -1,0 +1,93 @@
+<div class="content-tab">
+  <mat-tab-group
+    mat-stretch-tabs
+    class="example-stretched-tabs mat-elevation-z4"
+  >
+    <mat-tab label="Settings">
+      <div class="mt-3 col-3">
+        
+        <select class="form-select mb-3" aria-label=".form-select-lg example">
+          <mat-label>Fixed Amount Discount</mat-label>
+          <option selected>Fixed Amount Discount</option>
+          <option value="1"></option>
+          <option value="2"></option>
+          <option value="3"></option>
+        </select>
+      </div>
+      <p>
+        <mat-form-field class="matformfield" appearance="outline">
+          <mat-label>Fixed Amount Discount</mat-label>
+          <input class="input" matInput placeholder="Enter fixed amount" />
+        </mat-form-field>
+      </p>
+
+      <p>
+        <mat-form-field class="matformfield" appearance="outline">
+          <mat-label>Points to be deducted</mat-label>
+          <input class="input" matInput placeholder="500" />
+        </mat-form-field>
+      </p>
+
+      <div class="image-upload">
+        <h6 class="Image">Image</h6>
+        <label for="file-input">
+          <img [src]="imageSrc" alt="plus" />
+        </label>
+
+        <input id="file-input" type="file" />
+      </div>
+      <div class="buttonrow">
+        <button class="Discard1" mat-button color="White">Discard</button>
+        <button class="ApplyChanges1" mat-button color="White">
+          Apply Changes
+        </button>
+      </div>
+      <div class="example-button-row"></div>
+    </mat-tab>
+    <mat-tab label="Text Configuration">
+      <p>
+        <mat-form-field class="matformfield" appearance="outline">
+          <mat-label>Display</mat-label>
+          <input class="input" matInput placeholder="Enter Display Name" />
+        </mat-form-field>
+      </p>
+      <p>
+        <mat-form-field class="matformfield" appearance="outline">
+          <mat-label>Description</mat-label>
+          <input class="input" matInput placeholder="Enter Description" />
+        </mat-form-field>
+      </p>
+      <p>
+        <mat-form-field class="matformfield" appearance="outline">
+          <mat-label>Points Deduction Text</mat-label>
+          <input
+            class="input"
+            matInput
+            placeholder="Enter points deduction text"
+          />
+        </mat-form-field>
+      </p>
+
+      <div class="buttonrow">
+        <button class="Discard1" mat-button color="White">Discard</button>
+        <button class="ApplyChanges1" mat-button color="White">
+          Apply Changes
+        </button>
+      </div>
+    </mat-tab>
+    <mat-tab label="Manage Codes" class="Settings">
+      <br />
+      <h6 class="Rules">Coupons</h6>
+      <div class="image-upload">
+        <br />
+        <button class="OpenDialog" mat-button (click)="openDialog()">
+          <img [src]="imageplus" />
+        </button>
+        <p class="TEXT">You have not added any rules yet</p>
+      </div>
+
+      <!-- add table selector -->
+      <app-table></app-table>
+    </mat-tab>
+  </mat-tab-group>
+</div>

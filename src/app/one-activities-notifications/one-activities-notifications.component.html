@@ -1,0 +1,28 @@
+<div class="row mx-5 my-6">
+  <div class="col-6">
+    <mat-card>
+      <div class="col-6">
+        <mat-form-field class="matformfield" appearance="outline">
+          <mat-label>Title</mat-label>
+          <input class="input" matInput placeholder="Enter Title" />
+        </mat-form-field>
+      </div>
+
+      <div class="NgxEditor__Wrapper">
+        <ngx-editor-menu [editor]="editor"> </ngx-editor-menu>
+        <ngx-editor
+          class="NgxEditor"
+          [editor]="editor"
+          [ngModel]="html"
+          [disabled]="false"
+          
+        >
+        </ngx-editor>
+      </div>
+      <br />
+
+      <span class="sendEmail">Send Email</span>
+      <mat-slide-toggle></mat-slide-toggle>
+    </mat-card>
+  </div>
+</div>

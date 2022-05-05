@@ -1,0 +1,93 @@
+
+
+<section class="vh-100 gradient-custom">
+  
+
+<div class="row mx-5 my-6">
+  <div class="col-6">
+    <mat-card>
+      <div class="row">
+        <div class="col-6">
+          <mat-form-field class="matformfield" appearance="outline">
+            <mat-label>Name</mat-label>
+            <input class="input" matInput placeholder="Name"/>
+
+          
+          </mat-form-field>
+          <mat-form-field class="matformfield" appearance="outline">
+            <mat-label>Company Name*</mat-label>
+            <input class="input" matInput placeholder="Company Name" />
+          </mat-form-field>
+          <mat-form-field class="matformfield" appearance="outline">
+            <mat-label>Website*</mat-label>
+            <input class="input" matInput placeholder="Website.com" />
+          </mat-form-field>
+          <mat-form-field class="matformfield" appearance="outline">
+            <mat-label>Phone Number</mat-label>
+            <input class="input" matInput placeholder="94064043035" />
+
+            
+
+          
+          </mat-form-field>
+
+         
+          <div class="form-check d-flex justify-content-center mb-5">
+            <input   class="form-check-input me-2" type="checkbox" value="" id="form2Example3c" />
+            <label  class="form-check-label" for="form2Example3">
+              I agree all statements in <a href="#!">Terms of service</a>
+            </label>
+          </div>
+        
+
+
+        </div>
+
+        <div class="col-6">
+          <mat-form-field class="matformfield" appearance="outline">
+            <mat-label>Email</mat-label>
+            <input class="input" matInput placeholder="Email" />
+          </mat-form-field>
+          <div class="col-6">
+            
+            <select class="select1" aria-label="Default select example">
+              <option selected>Store Currency</option>
+              <option value="1">United States Dollar (USD)</option>
+              
+            </select>
+          
+          
+            <div class="col-6">
+              <mat-form-field class="matformfield" appearance="outline">
+                <mat-label>Password *</mat-label>
+                <input class="input" matInput placeholder="*************" />
+              </mat-form-field>
+
+              <div class="col-6">
+                <mat-form-field class="matformfield" appearance="outline">
+                  <mat-label>Confirm Password *</mat-label>
+                  <input class="input" matInput placeholder="*************" />
+                 </mat-form-field> 
+               
+              
+          </div>
+        </div>
+      </div>
+      
+      
+      <div class="row">
+        <div class="buttonrow">
+          <button [routerLink]="['/Back']" class="Discard1" mat-button color="White">Back</button>
+         
+    
+          <button [routerLink]="['/SubmitAccount']" class="ApplyChanges1" mat-button color="White">
+            Submit Account
+          </button>
+        </div>
+      </div>
+    
+  </div>
+
+ 
+
+

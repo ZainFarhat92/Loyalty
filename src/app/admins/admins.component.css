@@ -1,0 +1,152 @@
+table {
+  width: 100%;
+}
+
+
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+.mattoolbar {
+  background-color: white;
+  margin-bottom: -11px;
+}
+
+.user {
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 27px;
+  /* or 113% */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.496657px;
+
+  color: #2E2E7F;
+
+}
+
+/* .matformfield {
+  width: 245px;
+  border-radius: 150px;
+} */
+
+.mat-card {
+  display: block;
+  position: relative;
+  padding: 16px;
+  margin-left: 106px;
+  margin-right: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  align-items: center;
+  color: black;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  width: 560px;
+  height: 300px;
+  border-radius: 10px;
+  right: 60px;
+}
+
+
+.example-radio-group {
+  display: flex;
+  flex-direction: column;
+  margin: 15px 0;
+  align-items: flex-start;
+}
+
+.example-radio-button {
+  margin: 5px;
+}
+
+.AddAdmin {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 27px;
+  /* or 113% */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.496657px;
+
+  color: #2E2E7F;
+
+}
+
+.AccessType {
+  margin-bottom: 5px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+
+  letter-spacing: 0.25px;
+
+  color: #263238;
+
+}
+
+.matradiobutton1 {
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  letter-spacing: 0.01em;
+
+  /* ◇ Light / Primary Color */
+
+  color: #0E4DA4;
+
+}
+
+.matradiobutton2 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  letter-spacing: 0.01em;
+
+  /* ◇ Light / Dark */
+
+  color: #263238;
+}
+
+.Discard1 {
+  background: linear-gradient(86.39deg, #698eb7 0%, #5bc5c9 100%);
+  margin-left: 5px;
+  margin-right: 5px;
+  color: white;
+  border-radius: 15px;
+  left: 65%;
+  right: 0%;
+  top: 21.43%;
+  bottom: 21.43%;
+
+}
+
+.ApplyChanges1 {
+  background: #31c2aa;
+  border-radius: 15px;
+  color: white;
+  left: 65%;
+  right: 0%;
+  top: 21.43%;
+  bottom: 21.43%;
+}

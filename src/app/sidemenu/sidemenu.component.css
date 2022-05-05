@@ -1,0 +1,343 @@
+.example-container {
+  /* /width: 1000px; */
+  min-height: 700px;
+  background-color: #e9f3ff;
+  overflow: hidden !important;
+}
+
+.example-sidenav-content {
+  flex-direction: row;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  
+}
+
+.content-tab {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 50px;
+}
+
+.content-tab:hover {
+  color: blue;
+}
+
+.example-sidenav {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 400;
+  cursor: pointer;
+  font-size: 14px;
+  background: linear-gradient(183.84deg, #ffffff 48.31%, #cffdff 99.31%);
+  width: 215px;
+}
+
+.LoyaltyPoints {
+  padding: 7px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  font-weight: 400;
+  cursor: pointer;
+  font-size: 14px;
+  color: #2395d3;
+}
+.logo{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.Rewards {
+  padding: 7px 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  font-weight: 400;
+  cursor: pointer;
+  font-size: 12px;
+  color: grey;
+}
+
+.Rewards:hover {
+  color: #0e4da4;
+}
+
+.Company:hover {
+  color: #0e4da4;
+}
+
+.Company {
+  padding: 7px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  font-weight: 400;
+  cursor: pointer;
+  font-size: 12px;
+  color: grey;
+}
+
+.Profile {
+  padding: 7px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  font-weight: 400;
+  cursor: pointer;
+  font-size: 12px;
+  color: grey;
+  margin-top: 40px;
+  margin-bottom: -30px;
+
+}
+
+.LogOut {
+  padding: 7px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  font-weight: 400;
+  cursor: pointer;
+  font-size: 12px;
+  color: blue;
+}
+
+.mat-form-field+.mat-form-field {
+  margin-left: 8px;
+}
+
+.mat-expansion-panel-body {
+  background-color: white;
+  border-color: white;
+  border: none;
+  background-color: white;
+}
+
+.mat-expansion-panel-header {
+  background-color: white;
+  border-color: white;
+  border: none;
+  background-color: white;
+}
+
+.mat-accordion {
+  border: none;
+  background-color: transparent;
+}
+
+a {
+  text-decoration: none;
+}
+
+.buttonrow {
+  display: flex;
+  justify-content: end;
+}
+
+.Discard1 {
+  background: linear-gradient(86.39deg, #698eb7 0%, #5bc5c9 100%);
+  margin-left: 5px;
+  margin-right: 5px;
+  color: white;
+  border-radius: 15px;
+}
+
+.ApplyChanges1 {
+  background: #31c2aa;
+  border-radius: 15px;
+  color: white;
+}
+
+.Integrations:hover {
+  color: #0e4da4;
+}
+
+.Notifications:hover {
+  color: #0e4da4;
+  border-color: white;
+}
+
+.Admins:hover {
+  color: #0e4da4;
+}
+
+.Integrations {
+  padding: 7px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  font-weight: 400;
+  cursor: pointer;
+  font-size: 14px;
+  color: grey;
+}
+
+.Admins {
+  padding: 7px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  font-weight: 400;
+  cursor: pointer;
+  font-size: 12px;
+  color: grey;
+}
+
+.Notifications {
+  padding: 7px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  font-weight: 400;
+  cursor: pointer;
+  font-size: 12px;
+  color: grey;
+  border: none;
+  margin-left: -3px;
+}
+
+.mat-expansion-panel.mat-expanded .mat-expansion-panel-header {
+  background: inherit;
+  border: none;
+}
+
+.matformfield {
+  width: 245px;
+  border-radius: 150px;
+}
+
+.image-upload>input {
+  display: none;
+}
+
+.main {
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  top: 0px;
+}
+
+.Rules {
+  position: absolute;
+  width: 68px;
+  height: 28px;
+  left: 30px;
+  top: 18px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.496657px;
+  color: #2e2e7f;
+}
+
+.TEXT {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 16px;
+
+  margin-top: 25px;
+  color: #9a9a9a;
+}
+
+.Image {
+  position: absolute;
+  width: 68px;
+  height: 28px;
+  left: 32px;
+  top: 159px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.496657px;
+  color: #2e2e7f;
+}
+
+::ng-deep .mat-form-field-flex {
+  background-color: transparent !important;
+}
+
+.matformfield1 {
+  width: 245px;
+  border-radius: 150px;
+}
+
+.ApprovalTypes {
+  color: #5bc5c9;
+}
+
+.Immediatly {
+  color: #263238bf;
+}
+
+.mat-drawer-inner-container {
+  overflow: hidden !important;
+}
+
+.mat-drawer-inner-container ng-tns-c104-0 {
+  overflow: hidden !important;
+
+}
+.mat-toolbar{
+  background-color: transparent;
+}
+
+::ng-deep .mat-slide-toggle.mat-checked:not(.mat-disabled) .mat-slide-toggle-thumb {
+  background-color: blue; /*replace with your color*/
+}
+
+::ng-deep .mat-slide-toggle.mat-checked:not(.mat-disabled) .mat-slide-toggle-bar {
+  background-color: skyblue;  /*replace with your color*/
+}
+
+.form-select{
+
+  padding: 7px 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  font-weight: 400;
+  cursor: pointer;
+  font-size: 12px;
+  color: grey;
+  border-color: linear-gradient(183.84deg, #ffffff 48.31%, #cffdff 99.31%); ;
+  background-color:linear-gradient(183.84deg, #ffffff 48.31%, #cffdff 99.31%);
+  border: transparent !important;
+  ;
+
+
+}
+:hover.form-select{
+
+  color:#2E2E7F;;
+}

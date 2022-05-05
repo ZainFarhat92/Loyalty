@@ -1,0 +1,100 @@
+<mat-drawer-container class="example-container" autosize>
+  <mat-toolbar color="white">
+    <button
+      type="button"
+      aria-label="Toggle sidenav"
+      mat-icon-button
+      (click)="drawer.toggle()"
+    >
+      <mat-icon>menu</mat-icon>
+    </button>
+    {{ title }}
+  </mat-toolbar>
+  <mat-drawer #drawer class="example-sidenav" mode="side">
+    <img [src]="imageSrc" [alt]="imageAlt" class="logo" />
+    <a class="LoyaltyPoints" mat-raised-a color="White">Loyalty Points</a>
+
+    <a [routerLink]="['/Dashboard/Dashboard']" class="Rewards" mat-raised-a color="White"
+      >Dashboard</a
+    >
+
+    <a [routerLink]="['/Dashboard/Users']" class="Rewards" mat-raised-a color="White"
+      >Users</a
+    >
+
+    <a [routerLink]="['/Dashboard/Activities']" class="Rewards" mat-raised-a color="White"
+      >Activites</a
+    >
+
+    <a [routerLink]="['/Dashboard/Rewards']" class="Rewards" mat-raised-a color="White"
+      >Rewards</a
+    >
+
+    <a class="Rewards" mat-raised-a color="White">Tiers</a>
+
+    <select   class="form-select" aria-label="Default select example">
+      <option selected>Notifications</option>
+      <option value="1">Activities Notifications</option>
+      <option value="2">Rewards Notifications</option>
+      <option value="3">Welcome Notifications</option>
+    </select>
+
+
+    <select class="form-select" aria-label="Default select example">
+      <option selected>Admins</option>
+      <option value="1">Points History</option>
+    </select>
+
+
+    <select class="form-select" aria-label="Default select example">
+      <option selected>Integration</option>
+      <option value="1" >
+        <a [routerLink]="['/Dashboard/Rewards']">
+        Basic Integration & A.. </a></option>
+      <option value="2">Purchase Tracking api</option>
+    
+    </select>
+
+ 
+    <!-- <a
+      [routerLink]="['/Dashboard/NotificationsActivities']"
+      class="Notifications"
+      mat-raised-a
+      color="White"
+      >Notifications Activities
+    </a> -->
+
+    <!-- <a [routerLink]="['/Dashboard/Admins']" class="Company" mat-raised-a color="White"
+      >Admins</a
+    > -->
+
+    <!-- <a [routerLink]="['/Dashboard/basicIntegrations']" class="Company" mat-raised-a color="White">Basic Integrations</a> -->
+
+
+  
+
+    
+
+
+  
+    
+    <a
+      [routerLink]="['/Dashboard//CompanyProfile']"
+      class="Company"
+      mat-raised-a
+      color="White"
+      >Company Profile</a
+    >
+
+    <a [routerLink]="['/Dashboard//Profile']" class="Profile" mat-raised-a color="White"
+      >Profile</a
+    >
+    <br />
+    <a [routerLink]="['/LogOut']" class="LogOut" mat-raised-a color="White">Log Out</a>
+    <br />
+  </mat-drawer>
+
+  <div class="example-sidenav-content">
+    <router-outlet></router-outlet>
+  </div>
+</mat-drawer-container>

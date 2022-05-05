@@ -1,0 +1,675 @@
+.example-container {
+    width: 1000px;
+    height: 600px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    background-color: #E9F3FF;
+  }
+  
+  
+  .example-sidenav-content {
+    flex-direction: row;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .content-tab {
+    display: flex;
+    flex-direction: row;
+    padding: -25px;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 15px;
+    margin: 10px;
+  }
+  
+  .content-tab:hover {
+    color: blue;
+  }
+  
+  .example-sidenav {
+  
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 400;
+    cursor: pointer;
+    font-size: 14px;
+    background: linear-gradient(183.84deg, #FFFFFF 48.31%, #CFFDFF 99.31%);
+  
+  
+  }
+  
+  .LoyaltyPoints {
+    padding: 7px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    font-weight: 400;
+    cursor: pointer;
+    font-size: 14px;
+    color: #2395D3;
+    ;
+  
+  }
+  
+  .Rewards {
+    padding: 7px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    font-weight: 400;
+    cursor: pointer;
+    font-size: 14px;
+    color: grey;
+  }
+  
+  .Rewards:hover {
+    color: #0E4DA4;
+  }
+  
+  .Company:hover {
+    color: #0E4DA4;
+  }
+  
+  
+  .Company {
+    padding: 7px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    font-weight: 400;
+    cursor: pointer;
+    font-size: 14px;
+    color: grey;
+  }
+  
+  .Profile {
+  
+    padding: 7px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    font-weight: 400;
+    cursor: pointer;
+    font-size: 14px;
+    color: grey;
+  }
+  
+  .LogOut {
+  
+    padding: 7px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    font-weight: 400;
+    cursor: pointer;
+    font-size: 14px;
+    color: blue;
+  }
+  
+  .mat-form-field+.mat-form-field {
+    margin-left: 8px;
+  }
+  
+  .mat-expansion-panel-body {
+    background-color: white;
+    border-color: white;
+    border: none;
+    background-color: white;
+  
+  }
+  
+  .mat-expansion-panel-header {
+    background-color: white;
+    border-color: white;
+    border: none;
+    background-color: white;
+  
+  }
+  
+  .mat-accordion {
+    border: none;
+    background-color: transparent;
+  
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .buttonrow {
+    display: flex;
+    justify-content: end;
+  }
+  
+  .Discard1 {
+    background: linear-gradient(86.39deg, #698EB7 0%, #5BC5C9 100%);
+    margin-left: 5px;
+    margin-right: 5px;
+    color: white;
+    border-radius: 15px;
+  
+  }
+  
+  .ApplyChanges1 {
+    background: #31C2AA;
+    border-radius: 15px;
+    color: white;
+  
+  }
+  
+  .Integrations:hover {
+    color: #0E4DA4;
+  }
+  
+  .Notifications:hover {
+    color: #0E4DA4;
+    border-color: white;
+  }
+  
+  .Admins:hover {
+    color: #0E4DA4;
+  }
+  
+  .Integrations {
+    padding: 7px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    font-weight: 400;
+    cursor: pointer;
+    font-size: 14px;
+    color: grey;
+  
+  }
+  
+  .Admins {
+    padding: 7px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    font-weight: 400;
+    cursor: pointer;
+    font-size: 14px;
+    color: grey;
+  }
+  
+  .Notifications {
+    padding: 7px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    font-weight: 400;
+    cursor: pointer;
+    font-size: 14px;
+    color: grey;
+  
+  
+  }
+  
+  .mat-expansion-panel.mat-expanded .mat-expansion-panel-header {
+    background: inherit;
+    border: none;
+  }
+  
+  .matformfield {
+    width: 245px;
+    border-radius: 150px;
+  }
+  
+  
+  
+  .image-upload>input {
+    display: none;
+  }
+  
+  .main {
+    position: absolute;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    top: 0px;
+  }
+  
+  .Rules {
+    position: absolute;
+    width: 68px;
+    height: 28px;
+    left: 30px;
+    top: 18px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.496657px;
+    color: #2E2E7F;
+  }
+  
+  .TEXT {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 16px;
+    margin-top: 25px;
+    color: #9A9A9A;
+  }
+  
+
+  
+  
+  ::ng-deep .mat-form-field-flex {
+    background-color: transparent !important;
+  }
+  
+  
+  .matformfield1 {
+    width: 245px;
+    border-radius: 150px;
+  
+  }
+  
+  
+  
+  .Condtion {
+    color: #263238BF;
+  
+  }
+  
+  
+  .SelectCondition {
+    color: #5BC5C9;
+  
+  }
+  
+  
+  .SelectAction {
+    color: #5BC5C9;
+  
+  }
+  
+  .Action {
+    color: #263238BF;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  .mat-form-field+.mat-form-field {
+    margin-left: 8px;
+  }
+  
+  .mat-expansion-panel-body {
+    background-color: white;
+    border-color: white;
+    border: none;
+    background-color: white;
+  
+  
+  }
+  
+  .mat-expansion-panel-header {
+    background-color: white;
+    border-color: white;
+    border: none;
+    background-color: white;
+  
+  
+  
+  }
+  
+  .mat-accordion {
+    border: none;
+    background-color: transparent;
+  
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .buttonrow {
+    display: flex;
+    justify-content: end;
+  }
+  
+  .Discard1 {
+    background: linear-gradient(86.39deg, #698EB7 0%, #5BC5C9 100%);
+    margin-left: 5px;
+    margin-right: 5px;
+    color: white;
+    border-radius: 15px;
+  
+  
+  
+  }
+  
+  .ApplyChanges1 {
+    background: #31C2AA;
+    border-radius: 15px;
+    color: white;
+  
+  
+  }
+  
+  .Integrations:hover {
+    color: #0E4DA4;
+  }
+  
+  .Notifications:hover {
+    color: #0E4DA4;
+    border-color: white;
+  }
+  
+  .Admins:hover {
+    color: #0E4DA4;
+  }
+  
+  .Integrations {
+    padding: 7px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    font-weight: 400;
+    cursor: pointer;
+    font-size: 14px;
+    color: grey;
+  
+  }
+  
+  
+  .Admins {
+    padding: 7px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    font-weight: 400;
+    cursor: pointer;
+    font-size: 14px;
+    color: grey;
+  }
+  
+  .Notifications {
+    padding: 7px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    font-weight: 400;
+    cursor: pointer;
+    font-size: 14px;
+    color: grey;
+  
+  
+  }
+  
+  .mat-expansion-panel.mat-expanded .mat-expansion-panel-header {
+    background: inherit;
+    border: none;
+  }
+  
+  .matformfield {
+    width: 245px;
+    border-radius: 150px;
+  }
+  
+  
+  
+  .image-upload>input {
+    display: none;
+  }
+  
+  .main {
+    position: absolute;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    top: 0px;
+  }
+  
+  .Rules {
+    position: absolute;
+    width: 68px;
+    height: 28px;
+    left: 0px;
+    top: 18px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.496657px;
+    color: #2E2E7F;
+  }
+  
+  .TEXT {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 16px;
+  
+  
+    margin-top: 25px;
+    color: #9A9A9A;
+  
+  }
+  
+
+  .Image {
+    position: absolute;
+    width: 68px;
+    height: 28px;
+    left: 32px;
+    top: 252px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.496657px;
+    color: #5BC5C9 !important;
+    margin: 5px 20px;
+  }
+  
+  
+  ::ng-deep .mat-form-field-flex {
+    background-color: transparent !important;
+  }
+  
+  
+  .OpenDialogeSelect {
+    width: 400px;
+    border-radius: 150px;
+    left: 95px;
+    height: 76px;
+  
+  
+  }
+  
+  .RewardType {
+    color: #5BC5C9;
+  
+  }
+  
+  .FixedAmountDiscount {
+    color: #263238BF;
+  
+  }
+  
+  .AddRule {
+  
+  
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 0px;
+  
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.496657px;
+    margin-left: 2px;
+  
+    margin-top: 10px;
+    
+  
+  
+    color: #2E2E7F;
+  
+  }
+  
+  .Then {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 27px;
+    margin-left: -20px;
+    margin-right: 3px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.496657px;
+    color: #2E2E7F;
+    position: absolute;
+  
+  }
+  
+  .verticallyaligned1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 27px;
+    margin-left: 80px;
+    margin-right: 3px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.496657px;
+    color: #2E2E7F;
+    position: absolute;
+  
+  }
+  
+  .mat-typography {
+  
+    height: 127px;
+    width: 500px;
+    border-radius: 15px;
+  
+  }
+  
+  .If {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 27px;
+    margin-left: -15px;
+    margin-right: 5px;
+    margin-top: 22px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.496657px;
+    color: #2E2E7F;
+    position: absolute;
+  }
+  
+  
+  
+  .verticallyaligned {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 27px;
+    margin-left: 80px;
+    margin-right: 3px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.496657px;
+    color: #2E2E7F;
+    position: absolute;
+  
+  }
+  
+  .OpenDialog {
+    position: absolute;
+    width: 68px;
+    height: 28px;
+    left: 67px;
+    top: 18px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.496657px;
+    color: #2E2E7F;
+  }
+  
+  
+  .example-stretched-tabs {
+    width: 3000px;
+    height: 416pxpx;
+    border-radius: 15px;
+    padding: 20px;
+  }
+
+
+  .Reward1{
+
+font-family: 'Adam';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 51px;
+
+
+color: #263238;
+
+  }
+
+  
