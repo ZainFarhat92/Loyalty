@@ -10,9 +10,12 @@ export class BasicIntegrationsComponent implements OnInit {
   editor!: Editor;
   html!: '';
 
-  imageSrc = 'assets/images/myimage.png'  
-  imageAlt = 'myimage'
+ 
 
+
+  imageSrc = '../../assets/image/myimage.png';
+  imageAlt = 'myimage';
+  
   ngOnInit(): void {
     this.editor = new Editor();
   }

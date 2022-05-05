@@ -61,6 +61,9 @@ import { RegistrationComponent } from './registration/registration.component';
 
 import { CommonModule } from '@angular/common';
 import { NgxIntlTelInputModule } from 'ngx-intl-tel-input';
+import { PurchaseComponent } from './purchase/purchase.component';
+
+
 
 
 
@@ -109,6 +112,7 @@ import { NgxIntlTelInputModule } from 'ngx-intl-tel-input';
     TworesetpasswordComponent,
     ThreeresetpasswordComponent,
     RegistrationComponent,
+    PurchaseComponent,
     
     
         
@@ -167,6 +171,7 @@ import { NgxIntlTelInputModule } from 'ngx-intl-tel-input';
     NgxIntlTelInputModule,
     BrowserModule,
     BrowserAnimationsModule,
+    
     
     
     

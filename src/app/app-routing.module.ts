@@ -140,7 +140,7 @@ const routes: Routes = [
   { path: 'registration', component: RegistrationComponent },
   { path: 'LogOut', component: LoginComponent },
   { path: 'Back', component: LoginComponent },
-  { path: 'SubmitAccount', component:SidemenuComponent  },
+  { path: 'SubmitAccount', component:LoginComponent},
 
 
 
